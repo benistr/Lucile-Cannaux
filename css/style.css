@@ -68,3 +68,10 @@ article > p {
 .qui-suis-je {
     padding-bottom: 2rem;
 }
+
+.domaines {
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: white;
+    text-align: center;
+}
