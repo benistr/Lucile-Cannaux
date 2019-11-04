@@ -28,7 +28,7 @@ header {
     text-transform: uppercase;
 }
 
-section {
+.animation-background {
     color: white;
     background-image: url('../assets/IMG_2138.jpg');
     background-size: cover;
@@ -36,13 +36,35 @@ section {
 }
 
 .animation-h1 {
-    font-size: 1.5rem;
-    padding-top: 5rem;
+    font-size: 3rem;
+    padding-top: 10rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
 }
 
 .animation-type {
-    font-size: 1.2rem;
+    font-size: 2rem;
     padding-left: 1rem;
+    padding-bottom: 30rem;
+}
+
+article {
+    color: white;
+    text-align: center;
+    background-color: #efc7c2
+}
+
+article > h1 {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+article > p {
+    text-align: justify;
+    margin: 0 3rem;
+    font-size: 1.1rem;
+}
+
+.qui-suis-je {
+    padding-bottom: 2rem;
 }
