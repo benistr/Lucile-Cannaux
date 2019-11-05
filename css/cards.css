@@ -1,178 +1,126 @@
-.flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  height: 200vh;
-  font-family: 'Montserrat', sans-serif;
+.cards {
+width: 900px;
 }
 
-.credit {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: #000;
+/* h2 {
+  margin-top: 0;
+  padding-top: .8em;
 }
 
-section .options {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  overflow: hidden;
-  min-width: 600px;
-  max-width: 900px;
-  width: calc(100% - 100px);
-  height: auto;
-}
-@media screen and (max-width: 718px) {
-  section .options {
-    min-width: 520px;
-  }
-  section .options .option:nth-child(5) {
-    display: none;
-  }
-}
-@media screen and (max-width: 638px) {
-  section .options {
-    min-width: 440px;
-  }
-  section .options .option:nth-child(4) {
-    display: none;
-  }
-}
-@media screen and (max-width: 558px) {
-  section .options {
-    min-width: 360px;
-  }
-  section .options .option:nth-child(3) {
-    display: none;
-  }
-}
-@media screen and (max-width: 478px) {
-  section .options {
-    min-width: 280px;
-  }
-  section .options .option:nth-child(2) {
-    display: none;
-  }
-}
-section .options .option {
+nav {
   position: relative;
+  perspective: 600px;
+} */
+
+.cool > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  background: #b09e99;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  z-index: 3;
+  text-align: center;
+}
+
+.cool > li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown {
+  opacity: 0;
+  position: absolute;
   overflow: hidden;
-  min-width: 60px;
-  max-width: 800px;
-  margin: 10px;
-  min-height: 100px;
-  background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
-  background-size: cover;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+  padding: 20px;
+  top: -20px;
+  border-radius: 2px;
+  transition: all 0.5s;
+  transform: translateY(100px);
+  will-change: opacity;
+  display: none;
 }
-section .options .option:nth-child(1) {
-  --defaultBackground:#ED5565;
+
+.trigger-enter .dropdown {
+  display: block;
 }
-section .options .option:nth-child(2) {
-  --defaultBackground:#FC6E51;
-}
-section .options .option:nth-child(3) {
-  --defaultBackground:#FFCE54;
-}
-section .options .option:nth-child(4) {
-  --defaultBackground:#2ECC71;
-}
-section .options .option:nth-child(5) {
-  --defaultBackground:#5D9CEC;
-}
-section .options .option:nth-child(6) {
-  --defaultBackground:#AC92EC;
-}
-section .options .option.active {
-  max-width: 800px;
-  height: 400px;
-  margin: 0px;
-  border-radius: 40px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  /*&:active {
-     transform:scale(0.9);
-  }*/
-}
-section .options .option.active .shadow {
-  box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
-}
-section .options .option.active .label {
-  bottom: 20px;
-  left: 20px;
-}
-section .options .option.active .label .info > div {
-  left: 0px;
+
+.trigger-enter-active .dropdown {
   opacity: 1;
 }
-section .options .option:not(.active) {
-  flex-grow: 1;
-  border-radius: 30px;
-}
-section .options .option:not(.active) .shadow {
-  bottom: -40px;
-  box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
-}
-section .options .option:not(.active) .label {
-  bottom: 10px;
-  left: 10px;
-}
-section .options .option:not(.active) .label .info > div {
-  left: 20px;
+
+.dropdownBackground {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
+  transition: all 0.3s, opacity 0.1s, transform 0.2s;
+  transform-origin: 50% 0;
+  display: flex;
+  justify-content: center;
   opacity: 0;
-}
-section .options .option .shadow {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  height: 120px;
-  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
-}
-section .options .option .label {
-  display: flex;
-  position: absolute;
-  right: 0px;
-  height: 40px;
-  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
-}
-section .options .option .label .icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  min-width: 40px;
-  max-width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background-color: white;
-  color: var(--defaultBackground);
-}
-section .options .option .label .info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 10px;
-  color: white;
-  white-space: pre;
-}
-section .options .option .label .info > div {
-  position: relative;
-  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
-}
-section .options .option .label .info .main {
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-section .options .option .label .info .sub {
-  transition-delay: .1s;
+  z-index: 2;
 }
 
-.main {
-  max-width: 580px;
+.dropdownBackground.open {
+  opacity: 1;
+}
+
+.arrow {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: white;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.bio {
+  min-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.7;
+  z-index: 11;
+}
+
+.bio img {
+  float: left;
+  margin-right: 20px;
+}
+
+.courses {
+  min-width: 300px;
+}
+
+.courses li {
+  padding: 10px 0;
+  display: block;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: black;
+  z-index: 12;
+}
+
+a.button {
+  background: black;
+  display: block;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
 }
