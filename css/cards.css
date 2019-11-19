@@ -1,6 +1,4 @@
-.cards {
-width: 900px;
-}
+
 
 /* h2 {
   margin-top: 0;
@@ -16,7 +14,7 @@ nav {
   color: white;
   text-decoration: none;
   font-size: 20px;
-  background: #b09e99;
+  background: #d5b9b2;
   padding: 10px 20px;
   display: inline-block;
   margin: 20px;
@@ -63,7 +61,7 @@ nav ul {
   width: 100px;
   height: 100px;
   position: absolute;
-  background: #fff;
+  background: #c6d8d3;
   border-radius: 4px;
   box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
   transition: all 0.3s, opacity 0.1s, transform 0.2s;
@@ -83,7 +81,7 @@ nav ul {
   width: 20px;
   height: 20px;
   display: block;
-  background: white;
+  background: #c6d8d3;
   transform: translateY(-50%) rotate(45deg);
 }
 
