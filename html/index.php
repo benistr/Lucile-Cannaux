@@ -15,14 +15,15 @@
 <body>
     <div class="container">
         <header>
-            <h1 class="header_title">M<sup>e</sup> Lucile CANNAUX</h1>
+            <h1 class="header-title">M<sup>e</sup> Lucile CANNAUX</h1>
             <div>
                 <nav class="menu">
                     <ul>
                         <li class="menu__item"><a href="#quisuisje">Qui suis-je ?</a></li>
                         <li class="menu__item"><a href="#mesdomaines">Mes domaines d'expertise</a></li>
-                        <li class="menu__item">Ma formation</li>
-                        <li class="menu__item">Contactez-moi</li>
+                        <li class="menu__item"><a href="#maformation">Ma formation</a></li>
+                        <li class="menu__item"><a href="#meshonoraires">Mes honoraires</a></li>
+                        <li class="menu__item"><a href="#contactezmoi">Contactez-moi</a></li>
                     </ul>
                 </nav>
             </div>
@@ -40,6 +41,7 @@
                 <h1 class="title-qui-suis-je">Qui suis-je ?</h1>
                 <p class="paragraphe-qui-suis-je">J'apporte à mes clients la <em>compétence</em> et la réactivité indispensables à leur information et à la <strong>défense</strong> de leurs intérêts, tant en conseil que lors d'une <em>procédure judiciaire</em>. 
                 En prenant conseil ou en me confiant la défense de vos <strong>intérêts</strong>, vous bénéficiez d'une écoute active, de compétences certifiées, et d'une totale <em>confidentialité</em> dans le traitement de votre dossier.</p>
+                <div class="palais-justice"></div>
             </article>
 
             <h1 class="domaines" id="mesdomaines">Mes domaines d'expertise</h1>
@@ -196,10 +198,73 @@
                 </nav>
             </section>
 
-            <article>
-                
+            <article class="ma-formation" id="maformation">
+                <h1 class="title-ma-formation">Ma formation</h1>
+                <li class="liste-ma-formation">Master 1 "Droit privé et sciences criminelles", à l'Université Nice Sophia Antipolis</li>
+                <li class="liste-ma-formation">Master 2 "Droit privé fondamental et sciences criminelles", option droit privé à l'Université Nice Sophia Antipolis</li>
+                <li class="liste-ma-formation">CAPA (Certificat d'Aptitude à la Profession d'Avocat), à l'EDA Sud-Est de Marseille</li>
+                <li class="liste-ma-formation">Prestation de serment à la Cour d'appel d'Aix-en-Provence en 2016</li>
             </article>
 
+            <article class="honoraires" id="meshonoraires">
+                <h1 class="title-honoraires">Mes honoraires</h1>
+                <p class="paragraphe-honoraires">La détermination des honoraires sera abordée ensemble, dès notre premier rendez-vous au cabinet et ceci en toute transparence.
+                <br>
+                Chaque dossier donne lieu à la signature d’une convention d’honoraires. Vous connaissez ainsi avec précision votre engagement financier.
+                <br><br>
+                Ces honoraires peuvent être pris en charge totalement ou partiellement par votre assureur en cas de garantie protection juridique.
+                Pour les personnes disposant de ressources limitées, le cabinet peut intervenir dans le cadre de l’aide juridictionnelle totale ou partielle.
+                <br><br>
+                Le montant d’honoraires peut être fixé, selon les dossiers, soit forfaitairement, soit au temps passé sur la base d’un taux horaire défini dans la convention d’honoraires. En fonction du type de dossier, le Cabinet peut prévoir un honoraire complémentaire de résultat, fonction du résultat obtenu ou du service rendu.
+                <br>
+                Celui-ci vient alors s’ajouter à l’honoraire au temps passé prévu à la convention d’honoraires ; la rémunération de l'Avocat sous la forme d'un honoraire de résultat seul étant strictement interdite par les règles déontologiques de la Profession.
+                <br><br>
+                Le règlement des honoraires n’intervient généralement pas en une seule fois mais donne lieu, au gré de l’accomplissement des prestations, à l’émission successive de factures.
+                Dans certains cas, il m'arrive de demander à mes clients le versement préalable d'une provision à valoir sur ses frais et honoraires. La convention d’honoraires le prévoit alors expressément.
+                <br>
+                Chaque facture émise dans le dossier procède au détail des prestations effectuées
+                afin de permettre au client de comprendre précisément à quoi correspondent les
+                honoraires dont le règlement est sollicité.</p>
+            </article>
+
+            <section class="contact" id="contactezmoi">
+                <aside><img class="aside-contact" src="../assets/IMG_2042.JPG" alt=""></aside>
+                <h1 class="title-contact">Contactez-moi</h1>
+
+                <form method="post">
+                    <label class="paragraphe-contact">Email</label>
+                    <input class="emailarea" type="email" name="email" placeholder="Votre Email" required>
+                    <br><br>
+                    <label class="paragraphe-contact">Message</label>
+                    <textarea class="textarea" name="message" placeholder="Votre demande" required></textarea>
+                    <br><br>
+                    <input class="bouton-valider" type="submit">
+                </form>
+                <?php
+                if (isset($_POST['message'])) {
+                    $position_arobase = strpos($_POST['email'], '@');
+                    if ($position_arobase === false)
+                        echo '<p>Votre email doit comporter un arobase.</p>';
+                    else {
+                        $retour = mail('benjamin.str@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
+                        if($retour)
+                            echo '<p class="paragraphe-contact">Votre message a été envoyé.</p>';
+                        else
+                            echo '<p>Erreur.</p>';
+                    }
+                }
+                ?>
+                <br>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.472709945085!2d7.257823751121158!3d43.70072445727173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd0093290683f%3A0xb3ad7f6a70468813!2s30%20Rue%20Rossini%2C%2006000%20Nice!5e0!3m2!1sfr!2sfr!4v1574287260843!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <p class="paragraphe-contact">30 rue Rossini</p>
+                <p class="paragraphe-contact">06000 Nice</p>
+                <br><br>
+                <p class="paragraphe-contact">Téléphone : 04.93.16.36.90</p>
+                <p class="paragraphe-contact">Fax : 04.93.16.36.92</p>
+                <br><br>
+                <p class="paragraphe-contact">Case Palais n°185</p>
+                <br><br>
+            </section>
         </main>
 
         <footer>

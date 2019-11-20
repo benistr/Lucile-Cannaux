@@ -13,9 +13,9 @@ header {
     color: white;
 }
 
-.header_title {
+.header-title {
     font-size: 1.7rem;
-    padding-top: 0.6rem;
+    padding-top: 1rem;
     padding-bottom: 1.6rem;
     text-align: center;
 }
@@ -79,12 +79,14 @@ header {
     padding-bottom: 2rem;
     color: white;
     text-align: center;
-    background-color: #c6d8d3
+    background-color: #c6d8d3;
+    line-height: 1.5rem;
 }
 
 .title-qui-suis-je {
     font-size: 2rem;
     padding: 1rem 0;
+    padding-bottom: 1.5rem;
 }
 
 .paragraphe-qui-suis-je {
@@ -93,9 +95,125 @@ header {
     font-size: 1.1rem;
 }
 
+.palais-justice {
+    width: 80%;
+    height: 150px;
+    background-image: url(../assets/palais-justice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 35%;
+    opacity: 0.5;
+    margin: 0 auto;
+}
+
 .domaines {
     font-size: 2rem;
     padding-top: 1rem;
     color: white;
     text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.ma-formation {
+    padding-bottom: 2rem;
+    color: white;
+    text-align: center;
+    background-color: #c6d8d3
+}
+
+.title-ma-formation {
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.liste-ma-formation {
+    text-align: left;
+    margin: 0 3rem;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.honoraires {
+    padding-bottom: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.title-honoraires {
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.paragraphe-honoraires {
+    text-align: justify;
+    margin: 0 3rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.title-contact {
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    padding: 1rem 0;
+    padding-left: 10rem;
+}
+
+.contact {
+    background-color: #c6d8d3;
+    color: white;
+}
+
+.paragraphe-contact {
+    text-align: justify;
+    margin: 0 3rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.aside-contact {
+    width: 50%;
+    float: right;
+}
+
+.bouton-valider {
+    border-radius: 5px;
+    background-color: #3b8ea5;
+    color: white;
+    font-size: 1rem;
+}
+
+.emailarea {
+    margin-right: 4rem;
+    float: right;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    background-color: #d5b9b2;
+}
+
+.textarea {
+    margin-right: 4rem;
+    float: right;
+    width: 300px;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    background-color: #d5b9b2;
+}
+
+input[type="submit"]{
+    cursor:pointer;
+   }
+
+::placeholder {
+    padding-left: 0.5rem;
+    color: white;
+}
+
+.map {
+    border-radius: 10px;
+    float: right;
+    margin-right: 4rem;
 }
