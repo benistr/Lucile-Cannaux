@@ -121,6 +121,20 @@ header {
     padding-bottom: 1.5rem;
 }
 
+.place-massena-nuit {
+    width: 93%;
+    height: 250px;
+    background-image: url(../assets/place-massena-nuit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 35%;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
 .ma-formation {
     padding-bottom: 2rem;
     color: white;
@@ -220,6 +234,7 @@ header {
     background-color: #3b8ea5;
     color: white;
     font-size: 1rem;
+    float: right;
 }
 
 .emailarea {

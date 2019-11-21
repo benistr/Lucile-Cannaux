@@ -119,20 +119,6 @@
                             </ul>
                         </li>
                         <li>
-                        <a href="#">Droit du dommage corporel</a>
-                            <ul class="dropdown courses">
-                                <li>
-                                <span class="code">Conseil et prise en charge de la procédure d'indemnisation suite à un accident</span>
-                                </li>
-                                <li>
-                                <span class="code">Optimisation du rapport évaluation du préjudice / indemnisation de l'accident</span>
-                                </li>
-                                <li>
-                                <span class="code">Demande d'indemnisation du préjudice corporel et du préjudice moral</span>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
                             <a href="#">Droit des garanties, des sûretés et des mesures d'exécution</a>
                             <ul class="dropdown courses">
                                 <li>
@@ -195,14 +181,29 @@
                                 </li>
                             </ul>
                         </li>
+                        <li>
+                        <a href="#">Droit du dommage corporel</a>
+                            <ul class="dropdown courses">
+                                <li>
+                                <span class="code">Conseil et prise en charge de la procédure d'indemnisation suite à un accident</span>
+                                </li>
+                                <li>
+                                <span class="code">Optimisation du rapport évaluation du préjudice / indemnisation de l'accident</span>
+                                </li>
+                                <li>
+                                <span class="code">Demande d'indemnisation du préjudice corporel et du préjudice moral</span>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
+                <div class="place-massena-nuit"></div>
             </section>
 
             <article class="ma-formation" id="maformation" data-aos="fade-right">
                 <h1 class="title-ma-formation">Ma formation</h1>
-                <li class="liste-ma-formation">Master 1 "Droit privé et sciences criminelles", à l'Université Nice Sophia Antipolis</li>
-                <li class="liste-ma-formation">Master 2 "Droit privé fondamental et sciences criminelles", option droit privé à l'Université Nice Sophia Antipolis</li>
+                <li class="liste-ma-formation">Master 1 Droit privé et sciences criminelles, à l'Université Nice Sophia Antipolis</li>
+                <li class="liste-ma-formation">Master 2 Droit privé fondamental et sciences criminelles, option droit privé à l'Université Nice Sophia Antipolis</li>
                 <li class="liste-ma-formation">CAPA (Certificat d'Aptitude à la Profession d'Avocat), à l'EDA Sud-Est de Marseille</li>
                 <li class="liste-ma-formation">Prestation de serment à la Cour d'appel d'Aix-en-Provence en 2016</li>
                 <div class="nice-rue"></div>
@@ -223,7 +224,7 @@
                 Celui-ci vient alors s’ajouter à l’honoraire au temps passé prévu à la convention d’honoraires ; la rémunération de l'Avocat sous la forme d'un honoraire de résultat seul étant strictement interdite par les règles déontologiques de la Profession.
                 <br><br>
                 Le règlement des honoraires n’intervient généralement pas en une seule fois mais donne lieu, au gré de l’accomplissement des prestations, à l’émission successive de factures.
-                Dans certains cas, il m'arrive de demander à mes clients le versement préalable d'une provision à valoir sur ses frais et honoraires. La convention d’honoraires le prévoit alors expressément.
+                Dans certains cas, il m'arrive de demander à mes clients le versement préalable d'une provision à valoir sur ces frais et honoraires. La convention d’honoraires le prévoit alors expressément.
                 <br>
                 Chaque facture émise dans le dossier procède au détail des prestations effectuées
                 afin de permettre au client de comprendre précisément à quoi correspondent les
@@ -235,8 +236,8 @@
                 <h1 class="title-contact">Contactez-moi</h1>
 
                 <form method="post">
-                    <label class="paragraphe-contact">Email</label>
-                    <input class="emailarea" type="email" name="email" placeholder="Votre Email" required>
+                    <label class="paragraphe-contact">E-mail</label>
+                    <input class="emailarea" type="email" name="email" placeholder="Votre e-mail" required>
                     <br><br>
                     <label class="paragraphe-contact">Message</label>
                     <textarea class="textarea" name="message" placeholder="Votre demande" required></textarea>
@@ -261,10 +262,10 @@
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.472709945085!2d7.257823751121158!3d43.70072445727173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd0093290683f%3A0xb3ad7f6a70468813!2s30%20Rue%20Rossini%2C%2006000%20Nice!5e0!3m2!1sfr!2sfr!4v1574287260843!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 <br><br>
                 <p class="paragraphe-contact">Téléphone</p>
-                <a href="tel:0493163690" class="paragraphe-contact">04.93.16.36.90</a>
+                <a href="tel:0493163690" class="paragraphe-contact">04 93 16 36 90</a>
                 <br><br>
                 <p class="paragraphe-contact">Fax</p>
-                <a href="fax:0493163692" class="paragraphe-contact">04.93.16.36.92</a>
+                <a href="fax:0493163692" class="paragraphe-contact">04 93 16 36 92</a>
                 <br><br>
                 <p class="paragraphe-contact">Case Palais n°185</p>
                 <br><br>
