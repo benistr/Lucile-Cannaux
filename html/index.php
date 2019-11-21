@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Maître Lucile Cannaux</title>
 
+    <link rel="icon" href="../assets/favicon-32x32.png" />
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/cards.css">
@@ -232,7 +233,7 @@
             </article>
 
             <section class="contact" id="contactezmoi" data-aos="fade-right">
-                <aside><img class="aside-contact" src="../assets/IMG_2042.JPG" alt=""></aside>
+                <div class="left-part">
                 <h1 class="title-contact">Contactez-moi</h1>
 
                 <form method="post">
@@ -259,7 +260,7 @@
                 }
                 ?>
                 <br>
-                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.472709945085!2d7.257823751121158!3d43.70072445727173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd0093290683f%3A0xb3ad7f6a70468813!2s30%20Rue%20Rossini%2C%2006000%20Nice!5e0!3m2!1sfr!2sfr!4v1574287260843!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.472709945085!2d7.257823751121158!3d43.70072445727173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd0093290683f%3A0xb3ad7f6a70468813!2s30%20Rue%20Rossini%2C%2006000%20Nice!5e0!3m2!1sfr!2sfr!4v1574287260843!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 <br><br>
                 <p class="paragraphe-contact">Téléphone</p>
                 <a href="tel:0493163690" class="paragraphe-contact">04 93 16 36 90</a>
@@ -269,11 +270,17 @@
                 <br><br>
                 <p class="paragraphe-contact">Case Palais n°185</p>
                 <br><br>
+                </div>
+                <div class="right-part">
+                    <div class="aside-contact"></div>
+<!--                 <aside><img class="aside-contact" src="../assets/IMG_2042.JPG" alt=""></aside> -->
+                </div>
             </section>
         </main>
 
-        <footer>
-
+        <footer class="footer">
+            <p class="paragraphe-footer">&copy; Site internet créé par <a href="https://www.linkedin.com/in/benjaminstraub-web/">Benjamin Straub - Tous droits réservés</a></p>
+            <a class="paragraphe-footer">Mention légales</a>
         </footer>
     </div>
     
