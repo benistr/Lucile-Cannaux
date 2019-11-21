@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/cards.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,7 +38,7 @@
                 </p>
             </section>
 
-            <article class="qui-suis-je" id="quisuisje">
+            <article class="qui-suis-je" id="quisuisje" data-aos="fade-right">
                 <h1 class="title-qui-suis-je">Qui suis-je ?</h1>
                 <p class="paragraphe-qui-suis-je">J'apporte à mes clients la <em>compétence</em> et la réactivité indispensables à leur information et à la <strong>défense</strong> de leurs intérêts, tant en conseil que lors d'une <em>procédure judiciaire</em>. 
                 En prenant conseil ou en me confiant la défense de vos <strong>intérêts</strong>, vous bénéficiez d'une écoute active, de compétences certifiées, et d'une totale <em>confidentialité</em> dans le traitement de votre dossier.</p>
@@ -45,7 +46,7 @@
             </article>
 
             <h1 class="domaines" id="mesdomaines">Mes domaines d'expertise</h1>
-            <section class="cards">
+            <section class="cards" data-aos="fade-left">
                 <nav class="top">
                     <div class="dropdownBackground">
                         <span class="arrow"></span>
@@ -198,15 +199,17 @@
                 </nav>
             </section>
 
-            <article class="ma-formation" id="maformation">
+            <article class="ma-formation" id="maformation" data-aos="fade-right">
                 <h1 class="title-ma-formation">Ma formation</h1>
                 <li class="liste-ma-formation">Master 1 "Droit privé et sciences criminelles", à l'Université Nice Sophia Antipolis</li>
                 <li class="liste-ma-formation">Master 2 "Droit privé fondamental et sciences criminelles", option droit privé à l'Université Nice Sophia Antipolis</li>
                 <li class="liste-ma-formation">CAPA (Certificat d'Aptitude à la Profession d'Avocat), à l'EDA Sud-Est de Marseille</li>
                 <li class="liste-ma-formation">Prestation de serment à la Cour d'appel d'Aix-en-Provence en 2016</li>
+                <div class="nice-rue"></div>
             </article>
 
-            <article class="honoraires" id="meshonoraires">
+            <article class="honoraires" id="meshonoraires" data-aos="fade-left">
+            <div class="aside-honoraires"></div>
                 <h1 class="title-honoraires">Mes honoraires</h1>
                 <p class="paragraphe-honoraires">La détermination des honoraires sera abordée ensemble, dès notre premier rendez-vous au cabinet et ceci en toute transparence.
                 <br>
@@ -227,7 +230,7 @@
                 honoraires dont le règlement est sollicité.</p>
             </article>
 
-            <section class="contact" id="contactezmoi">
+            <section class="contact" id="contactezmoi" data-aos="fade-right">
                 <aside><img class="aside-contact" src="../assets/IMG_2042.JPG" alt=""></aside>
                 <h1 class="title-contact">Contactez-moi</h1>
 
@@ -256,11 +259,12 @@
                 ?>
                 <br>
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.472709945085!2d7.257823751121158!3d43.70072445727173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd0093290683f%3A0xb3ad7f6a70468813!2s30%20Rue%20Rossini%2C%2006000%20Nice!5e0!3m2!1sfr!2sfr!4v1574287260843!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                <p class="paragraphe-contact">30 rue Rossini</p>
-                <p class="paragraphe-contact">06000 Nice</p>
                 <br><br>
-                <p class="paragraphe-contact">Téléphone : 04.93.16.36.90</p>
-                <p class="paragraphe-contact">Fax : 04.93.16.36.92</p>
+                <p class="paragraphe-contact">Téléphone</p>
+                <a href="tel:0493163690" class="paragraphe-contact">04.93.16.36.90</a>
+                <br><br>
+                <p class="paragraphe-contact">Fax</p>
+                <a href="fax:0493163692" class="paragraphe-contact">04.93.16.36.92</a>
                 <br><br>
                 <p class="paragraphe-contact">Case Palais n°185</p>
                 <br><br>
@@ -275,7 +279,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="../js/typing.js"></script>
     <script src="../js/cards.js"></script>
+    <script src="../js/AOS.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>AOS.init();</script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </body>
 </html>
