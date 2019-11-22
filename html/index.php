@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Maître Lucile Cannaux</title>
+    <title>Lucile Cannaux : Avocat au barreau de Nice</title>
 
     <link rel="icon" href="../assets/favicon-32x32.png" />
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/cards.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+SC:300,400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1 class="header-title">M<sup>e</sup> Lucile CANNAUX</h1>
+            <h1 class="header-title">Lucile CANNAUX : Avocat au barreau de Nice</h1>
             <div>
                 <nav class="menu">
                     <ul>
                         <li class="menu__item"><a href="#quisuisje">Qui suis-je ?</a></li>
-                        <li class="menu__item"><a href="#mesdomaines">Mes domaines d'expertise</a></li>
-                        <li class="menu__item"><a href="#maformation">Ma formation</a></li>
-                        <li class="menu__item"><a href="#meshonoraires">Mes honoraires</a></li>
+                        <li class="menu__item"><a href="#mesdomaines">Domaines d'expertise</a></li>
+                        <li class="menu__item"><a href="#maformation">Formation</a></li>
+                        <li class="menu__item"><a href="#meshonoraires">Honoraires</a></li>
                         <li class="menu__item"><a href="#contactezmoi">Contactez-moi</a></li>
                     </ul>
                 </nav>
@@ -41,7 +42,7 @@
 
             <article class="qui-suis-je" id="quisuisje" data-aos="fade-right">
                 <h1 class="title-qui-suis-je">Qui suis-je ?</h1>
-                <p class="paragraphe-qui-suis-je">J'apporte à mes clients la <em>compétence</em> et la réactivité indispensables à leur information et à la <strong>défense</strong> de leurs intérêts, tant en conseil que lors d'une <em>procédure judiciaire</em>. 
+                <p class="paragraphe-qui-suis-je">Diplômée de l'Universite de Haute-Alsace et de l'Université de Nice Sophia Antipolis, j'ai prêté serment en janvier 2016. Je suis inscrite au Barreau de Nice et j'exerce mon activité dans l'ensemble du ressort de la Cour d'Appel d'Aix-En-Provence. J'apporte à mes clients la <em>compétence</em> et la réactivité indispensables à leur information et à la <strong>défense</strong> de leurs intérêts, tant en conseil que lors d'une <em>procédure judiciaire</em>. 
                 En prenant conseil ou en me confiant la défense de vos <strong>intérêts</strong>, vous bénéficiez d'une écoute active, de compétences certifiées, et d'une totale <em>confidentialité</em> dans le traitement de votre dossier.</p>
                 <div class="palais-justice"></div>
             </article>
