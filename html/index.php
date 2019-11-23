@@ -18,7 +18,8 @@
 <body>
     <div class="container">
         <header>
-            <h1 class="header-title">Lucile CANNAUX : Avocat au barreau de Nice</h1>
+            <h1 class="header-title">Lucile CANNAUX</h1>
+            <h1 class="subtitle">Avocat au barreau de Nice</h1>
             <div>
                 <nav class="menu">
                     <ul>
@@ -237,29 +238,34 @@
                 <div class="left-part">
                 <h1 class="title-contact">Contactez-moi</h1>
 
-                <form method="post">
+                <form method="post" action="mail.php">
                     <label class="paragraphe-contact">E-mail</label>
                     <input class="emailarea" type="email" name="email" placeholder="Votre e-mail" required>
                     <br><br>
+                    <label class="paragraphe-contact">Nom</label>
+                    <input class="emailarea" type="text" name="nom" placeholder="Votre nom" required>
+                    <br><br>
+                    <label class="paragraphe-contact">Téléphone</label>
+                    <input class="emailarea" type="number" name="telephone" placeholder="Votre numéro" required>
+                    <br><br>
                     <label class="paragraphe-contact">Message</label>
                     <textarea class="textarea" name="message" placeholder="Votre demande" required></textarea>
-                    <br><br>
                     <input class="bouton-valider" type="submit">
-                </form>
                 <?php
-                if (isset($_POST['message'])) {
-                    $position_arobase = strpos($_POST['email'], '@');
-                    if ($position_arobase === false)
-                        echo '<p>Votre email doit comporter un arobase.</p>';
-                    else {
-                        $retour = mail('benjamin.str@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
-                        if($retour)
-                            echo '<p class="paragraphe-contact">Votre message a été envoyé.</p>';
-                        else
-                            echo '<p>Erreur.</p>';
-                    }
-                }
+    if (isset($_POST['message'])) {
+        $position_arobase = strpos($_POST['email'], '@');
+        if ($position_arobase === false)
+            echo '<p>Votre email doit comporter un arobase.</p>';
+        else {
+            $retour = mail('benjamin.str@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
+            if($retour)
+                echo '<p>Votre message a été envoyé.</p>';
+            else
+                echo '<p>Erreur.</p>';
+        }
+    }
                 ?>
+                </form>
                 <br>
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.472709945085!2d7.257823751121158!3d43.70072445727173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd0093290683f%3A0xb3ad7f6a70468813!2s30%20Rue%20Rossini%2C%2006000%20Nice!5e0!3m2!1sfr!2sfr!4v1574287260843!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 <br><br>
