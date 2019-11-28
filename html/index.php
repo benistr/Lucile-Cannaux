@@ -17,7 +17,7 @@
 
 <body>
     <div class="container">
-        <header>
+        <header data-aos="fade-right" data-aos-duration="1500">
             <h1 class="header-title">Lucile CANNAUX</h1>
             <h1 class="subtitle">Avocat au barreau de Nice</h1>
             <div>
@@ -35,21 +35,21 @@
 
         <main>
             <section class="animation-background">
-                <h1 class="animation-h1">Avocat en</h1>
-                <p class="animation-type">Droit <span class="typed-text">
+                <h1 class="animation-h1" data-aos="fade-down" data-aos-duration="1500">Avocat en</h1>
+                <p class="animation-type" data-aos="fade-up" data-aos-duration="1500">Droit <span class="typed-text">
                 </span><span class="cursor">&nbsp;</span></p>
                 </p>
             </section>
 
-            <article class="qui-suis-je" id="quisuisje" data-aos="fade-right">
+            <article class="qui-suis-je" id="quisuisje" data-aos="fade-right" data-aos-duration="1500">
                 <h1 class="title-qui-suis-je">Qui suis-je ?</h1>
                 <p class="paragraphe-qui-suis-je">Diplômée de l'Universite de Haute-Alsace et de l'Université de Nice Sophia Antipolis, j'ai prêté serment en janvier 2016. Je suis inscrite au Barreau de Nice et j'exerce mon activité dans l'ensemble du ressort de la Cour d'Appel d'Aix-En-Provence. J'apporte à mes clients la <em>compétence</em> et la réactivité indispensables à leur information et à la <strong>défense</strong> de leurs intérêts, tant en conseil que lors d'une <em>procédure judiciaire</em>. 
                 En prenant conseil ou en me confiant la défense de vos <strong>intérêts</strong>, vous bénéficiez d'une écoute active, de compétences certifiées, et d'une totale <em>confidentialité</em> dans le traitement de votre dossier.</p>
                 <div class="palais-justice"></div>
             </article>
 
-            <h1 class="domaines" id="mesdomaines">Mes domaines d'expertise</h1>
-            <section class="cards" data-aos="fade-left">
+            <section class="cards" data-aos="fade-left" data-aos-duration="1500">
+                <h1 class="domaines" id="mesdomaines">Domaines d'expertise</h1>
                 <nav class="top">
                     <div class="dropdownBackground">
                         <span class="arrow"></span>
@@ -203,8 +203,8 @@
                 <div class="place-massena-nuit"></div>
             </section>
 
-            <article class="ma-formation" id="maformation" data-aos="fade-right">
-                <h1 class="title-ma-formation">Ma formation</h1>
+            <article class="ma-formation" id="maformation" data-aos="fade-right" data-aos-duration="1500">
+                <h1 class="title-ma-formation">Formation</h1>
                 <li class="liste-ma-formation">Master 1 Droit privé et sciences criminelles, à l'Université Nice Sophia Antipolis</li>
                 <li class="liste-ma-formation">Master 2 Droit privé fondamental et sciences criminelles, option droit privé à l'Université Nice Sophia Antipolis</li>
                 <li class="liste-ma-formation">CAPA (Certificat d'Aptitude à la Profession d'Avocat), à l'EDA Sud-Est de Marseille</li>
@@ -212,9 +212,9 @@
                 <div class="nice-rue"></div>
             </article>
 
-            <article class="honoraires" id="meshonoraires" data-aos="fade-left">
+            <article class="honoraires" id="meshonoraires" data-aos="fade-left" data-aos-duration="1500">
             <div class="aside-honoraires"></div>
-                <h1 class="title-honoraires">Mes honoraires</h1>
+                <h1 class="title-honoraires">Honoraires</h1>
                 <p class="paragraphe-honoraires">La détermination des honoraires sera abordée ensemble, dès notre premier rendez-vous au cabinet et ceci en toute transparence.
                 <br>
                 Chaque dossier donne lieu à la signature d’une convention d’honoraires. Vous connaissez ainsi avec précision votre engagement financier.
@@ -234,7 +234,7 @@
                 honoraires dont le règlement est sollicité.</p>
             </article>
 
-            <section class="contact" id="contactezmoi" data-aos="fade-right">
+            <section class="contact" id="contactezmoi" data-aos="fade-right" data-aos-duration="1500">
                 <div class="left-part">
                 <h1 class="title-contact">Contactez-moi</h1>
 
@@ -269,13 +269,13 @@
                 <br>
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.472709945085!2d7.257823751121158!3d43.70072445727173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd0093290683f%3A0xb3ad7f6a70468813!2s30%20Rue%20Rossini%2C%2006000%20Nice!5e0!3m2!1sfr!2sfr!4v1574287260843!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 <br><br>
-                <p class="paragraphe-contact">Téléphone</p>
-                <a href="tel:0493163690" class="paragraphe-contact">04 93 16 36 90</a>
+                <p class="contacts-tel">Téléphone</p>
+                <a href="tel:0493163690" class="contacts-tel">04 93 16 36 90</a>
                 <br><br>
-                <p class="paragraphe-contact">Fax</p>
-                <a href="fax:0493163692" class="paragraphe-contact">04 93 16 36 92</a>
+                <p class="contacts-tel">Fax</p>
+                <a href="fax:0493163692" class="contacts-tel">04 93 16 36 92</a>
                 <br><br>
-                <p class="paragraphe-contact">Case Palais n°185</p>
+                <p class="contacts-tel">Case Palais n°185</p>
                 <br><br>
                 </div>
                 <div class="right-part">
@@ -286,6 +286,8 @@
         </main>
 
         <footer class="footer">
+            <a href="https://consultation.avocat.fr/avocat-nice/lucile-cannaux-40045.html" target="_blank"><img class="ordre-avocat" src="../assets/ordre-avocat.jpg" alt=""></a>
+            <a href="https://www.justifit.fr/avocats/avocat-nice-06000-lucile-cannaux-6655" target="_blank"><img class="ordre-avocat" src="../assets/justifit.jpeg" alt=""></a>
             <p class="paragraphe-footer">&copy; Site internet créé par <a href="https://www.linkedin.com/in/benjaminstraub-web/">Benjamin Straub - Tous droits réservés</a></p>
             <a class="paragraphe-footer">Mention légales</a>
         </footer>

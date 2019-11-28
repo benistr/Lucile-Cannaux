@@ -3,6 +3,10 @@ body {
     background-color: #b09e99;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     margin: 0 auto;
     background-color: #3b8ea5;
@@ -44,11 +48,11 @@ header {
 
 .animation-background {
     color: white;
-    background-image: url(../assets/IMG_2138.jpg);
+    background-image: url(../assets/IMG_2138-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 35%;
-    height: 750px;
+    height: 600px;
 }
 
 .animation-h1 {
@@ -112,6 +116,10 @@ header {
     text-align: justify;
     margin: 0 3rem;
     font-size: 1.1rem;
+}
+
+.paragraphe-qui-suis-je::first-letter {
+    font-size: 2rem;
 }
 
 .palais-justice {
@@ -203,6 +211,10 @@ header {
     line-height: 1.5rem;
 }
 
+.paragraphe-honoraires::first-letter {
+    font-size: 2rem;
+}
+
 .aside-honoraires {
     background-image: url(../assets/plage-nice.jpg);
     background-size: cover;
@@ -214,6 +226,7 @@ header {
     margin-top: 3rem;
     border-radius: 10px;
     opacity: 0.7;
+    margin-bottom: 0.5rem;
 }
 
 .title-contact {
@@ -246,6 +259,12 @@ header {
     line-height: 1.5rem;
 }
 
+.contacts-tel {
+    font-size: 0.8rem;
+    text-align: justify;
+    margin: 0 3rem;
+}
+
 .aside-contact {
     background-image: linear-gradient(to left, transparent, #c6d8d3), url(../assets/IMG_2042.JPG);
     background-size: cover;
@@ -256,7 +275,7 @@ header {
 }
 
 .bouton-valider {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #3b8ea5;
     color: white;
     font-size: 1rem;
@@ -272,7 +291,7 @@ header {
     margin-right: 3rem;
     font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
-    background-color: #d5b9b2;
+    background-color: #93b7be;
 }
 
 .textarea {
@@ -282,7 +301,7 @@ header {
     height: 200px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
-    background-color: #d5b9b2;
+    background-color: #93b7be;
 }
 
 input[type="submit"]{
@@ -316,4 +335,10 @@ input[type="submit"]{
 .paragraphe-footer {
     margin-left: 3rem;
     margin-top: 1rem;
+}
+
+.ordre-avocat {
+    height: 80px;
+    float: right;
+    margin-right: 3rem;
 }
