@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #3b8ea5;
+    background-color: #326273;
+    overflow-X: hidden;
 }
 
 html {
@@ -9,12 +10,12 @@ html {
 
 .container {
     margin: 0 auto;
-    background-color: #3b8ea5;
+    background-color:#326273;
     width: 100%;
 }
 
 header {
-    background-color: #3b8ea5;
+    background-color: #326273;
     color: white;
 /*     position: fixed;
     width: 100%;
@@ -44,6 +45,10 @@ header {
     margin: 0 1.7rem;
     padding-bottom: 1rem;
     text-transform: uppercase;
+}
+
+.menu__item:hover{
+    font-weight: bold;
 }
 
 .animation-background {
@@ -99,10 +104,11 @@ header {
      }
 
 .qui-suis-je {
+    border-top: 2px solid white;
     padding-bottom: 2rem;
     color: white;
     text-align: center;
-    background-color: #c6d8d3;
+    background-color: #5c9ead;
     line-height: 1.5rem;
 }
 
@@ -136,6 +142,7 @@ header {
 }
 
 .domaines {
+    border-top: 2px solid white;
     font-size: 2rem;
     padding-top: 1rem;
     color: white;
@@ -158,10 +165,11 @@ header {
 }
 
 .ma-formation {
+    border-top: 2px solid white;
     padding-bottom: 2rem;
     color: white;
     text-align: center;
-    background-color: #c6d8d3
+    background-color: #5c9ead;
 }
 
 .title-ma-formation {
@@ -191,6 +199,7 @@ header {
 }
 
 .honoraires {
+    border-top: 2px solid white;
     padding-bottom: 2rem;
     color: white;
     text-align: center;
@@ -237,7 +246,8 @@ header {
 }
 
 .contact {
-    background-color: #c6d8d3;
+    border-top: 2px solid white;
+    background-color: #5c9ead;
     color: white;
     min-height: 800px;
     display: flex;
@@ -267,7 +277,7 @@ header {
 }
 
 .aside-contact {
-    background-image: linear-gradient(to left, transparent, #c6d8d3), url(../assets/IMG_2042.JPG);
+    background-image: linear-gradient(to left, transparent, #5c9ead), url(../assets/IMG_2042.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 35%;
@@ -277,7 +287,7 @@ header {
 
 .bouton-valider {
     border-radius: 10px;
-    background-color: #3b8ea5;
+    background-color: #326273;
     color: white;
     font-size: 1rem;
     width: 60%;
@@ -327,7 +337,7 @@ input[type="submit"]{
 }
 
 .footer {
-    background-color: #3b8ea5;
+    background-color: #326273;
     color: white;
 /*     position: fixed;
     width: 100%;
@@ -341,10 +351,30 @@ input[type="submit"]{
     margin-top: 1rem;
 }
 
+.lien-footer{
+    margin-left: 3rem;
+}
+
+.lien-footer-nom:hover{
+    font-weight: bold;
+}
+
+.lien-footer:hover {
+    font-weight: bold;
+}
+
 .ordre-avocat {
     height: 50px;
     float: right;
     margin-right: 3rem;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.typed-text-mail {
+    margin-left: 3rem;
+}
+
+.animation-type-mail {
+    padding-top: 10rem;
 }

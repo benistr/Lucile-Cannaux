@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="top-page">
         <header data-aos="fade-right" data-aos-duration="1500">
             <h1 class="header-title">Lucile CANNAUX</h1>
             <h1 class="subtitle">Avocat au barreau de Nice</h1>
@@ -254,6 +254,15 @@
                 <?php
     if (isset($_POST['message'])) {
         $position_arobase = strpos($_POST['email'], '@');
+        $entete  = 'MIME-Version: 1.0' . "\r\n";
+        $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+        $entete .= 'From: ' . $_POST['email'] . "\r\n";
+
+        $message = '<h1>Message envoyé depuis la page Contact de cannaux-avocat.fr</h1>
+        <p><b>Nom : </b>' . $_POST['nom'] . '<br>
+        <b>Email : </b>' . $_POST['email'] . '<br>
+        <b>Telephone : </b>' . $_POST['telephone'] . '</br>
+        <b>Message : </b>' . $_POST['message'] . '</p>';
         if ($position_arobase === false)
             echo '<p>Votre email doit comporter un arobase.</p>';
         else {
@@ -291,8 +300,10 @@
         <footer class="footer">
             <a href="https://consultation.avocat.fr/avocat-nice/lucile-cannaux-40045.html" target="_blank"><img class="ordre-avocat" src="../assets/ordre-avocat.jpg" alt=""></a>
             <a href="https://www.justifit.fr/avocats/avocat-nice-06000-lucile-cannaux-6655" target="_blank"><img class="ordre-avocat" src="../assets/justifit.jpeg" alt=""></a>
-            <p class="paragraphe-footer">&copy; Site internet créé par <a href="https://www.linkedin.com/in/benjaminstraub-web/">Benjamin Straub - Tous droits réservés</a></p>
-            <a class="paragraphe-footer">Mention légales</a>
+            <p class="paragraphe-footer">&copy; Site internet créé par <a class="lien-footer-nom" href="https://www.linkedin.com/in/benjaminstraub-web/">Benjamin Straub</a> - Tous droits réservés</p>
+            <a class="lien-footer">Mention légales</a>
+            <br>
+            <a class="lien-footer" href="#top-page">Revenir en haut de la page</a>
         </footer>
     </div>
     
