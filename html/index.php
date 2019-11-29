@@ -34,7 +34,7 @@
         </header>
 
         <main>
-            <section class="animation-background">
+            <section class="animation-background" data-aos="zoom-in" data-aos-duration="1500">
                 <h1 class="animation-h1" data-aos="fade-down" data-aos-duration="1500">Avocat en</h1>
                 <p class="animation-type" data-aos="fade-up" data-aos-duration="1500">Droit <span class="typed-text">
                 </span><span class="cursor">&nbsp;</span></p>
@@ -269,17 +269,20 @@
                 <br>
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.472709945085!2d7.257823751121158!3d43.70072445727173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd0093290683f%3A0xb3ad7f6a70468813!2s30%20Rue%20Rossini%2C%2006000%20Nice!5e0!3m2!1sfr!2sfr!4v1574287260843!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 <br><br>
-                <p class="contacts-tel">Téléphone</p>
-                <a href="tel:0493163690" class="contacts-tel">04 93 16 36 90</a>
-                <br><br>
-                <p class="contacts-tel">Fax</p>
-                <a href="fax:0493163692" class="contacts-tel">04 93 16 36 92</a>
-                <br><br>
-                <p class="contacts-tel">Case Palais n°185</p>
-                <br><br>
                 </div>
                 <div class="right-part">
-                    <div class="aside-contact"></div>
+                    <div class="aside-contact">
+                        <div class="contacts-tel">
+                            <p>Téléphone</p>
+                            <a href="tel:0493163690">04 93 16 36 90</a>
+                            <br><br>
+                            <p>Fax</p>
+                            <a href="fax:0493163692">04 93 16 36 92</a>
+                            <br><br>
+                            <p>Case Palais n°185</p>
+                            <br><br>
+                        </div>
+                </div>
 <!--                 <aside><img class="aside-contact" src="../assets/IMG_2042.JPG" alt=""></aside> -->
                 </div>
             </section>
