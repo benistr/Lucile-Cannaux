@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/responsive.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+SC:300,400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
@@ -19,7 +20,7 @@
     <div class="container" id="top-page">
         <header data-aos="fade-right" data-aos-duration="1500">
             <h1 class="header-title">Lucile CANNAUX</h1>
-            <h1 class="subtitle">Avocat au barreau de Nice</h1>
+            <h1 class="subtitle-header">Avocat au barreau de Nice</h1>
             <div>
                 <nav class="menu">
                     <ul>
@@ -246,7 +247,7 @@
                     <input class="emailarea" type="text" name="nom" placeholder="Votre nom" required>
                     <br><br>
                     <label class="paragraphe-contact">Téléphone</label>
-                    <input class="emailarea" type="number" name="telephone" placeholder="Votre numéro" required>
+                    <input class="emailarea" type="tel" name="telephone" placeholder="Votre numéro" pattern="[0-9]{10}" required>
                     <br><br>
                     <label class="paragraphe-contact">Message</label>
                     <textarea class="textarea" name="message" placeholder="Votre demande" required></textarea>
@@ -301,7 +302,7 @@
             <a href="https://consultation.avocat.fr/avocat-nice/lucile-cannaux-40045.html" target="_blank"><img class="ordre-avocat" src="../assets/ordre-avocat.jpg" alt=""></a>
             <a href="https://www.justifit.fr/avocats/avocat-nice-06000-lucile-cannaux-6655" target="_blank"><img class="ordre-avocat" src="../assets/justifit.jpeg" alt=""></a>
             <p class="paragraphe-footer">&copy; Site internet créé par <a class="lien-footer-nom" href="https://www.linkedin.com/in/benjaminstraub-web/">Benjamin Straub</a> - Tous droits réservés</p>
-            <a class="lien-footer">Mention légales</a>
+            <a class="lien-footer" href="mentionslegales.php">Mention légales</a>
             <br>
             <a class="lien-footer" href="#top-page">Revenir en haut de la page</a>
         </footer>
