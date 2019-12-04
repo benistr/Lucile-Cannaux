@@ -20,13 +20,13 @@
 
 <div class="container" id="top-page">
     <header data-aos="fade-right" data-aos-duration="1500">
-        <a href="/"><h1 class="header-title">Lucile CANNAUX</h1></a>
+        <a href="/"><h1 class="header-title">Lucile Cannaux</h1></a>
         <a href="/"><h1 class="subtitle-header">Avocat au barreau de Nice</h1></a>
         <div>
             <nav class="menu">
                 <ul>
                     <li class="menu__item"><a href="../#quisuisje">Qui suis-je ?</a></li>
-                    <li class="menu__item"><a href="../#mesdomaines">Domaines d'expertise</a></li>
+                    <li class="menu__item"><a href="../#mesdomaines">Domaines de compétences</a></li>
                     <li class="menu__item"><a href="../#maformation">Formation</a></li>
                     <li class="menu__item"><a href="../#meshonoraires">Honoraires</a></li>
                     <li class="menu__item"><a href="../#contactezmoi">Contactez-moi</a></li>
@@ -102,12 +102,13 @@
     </div>
 
     <footer class="footer">
-        <a href="https://consultation.avocat.fr/avocat-nice/lucile-cannaux-40045.html" target="_blank"><img class="ordre-avocat" src="../assets/ordre-avocat.jpg" alt=""></a>
-        <a href="https://www.justifit.fr/avocats/avocat-nice-06000-lucile-cannaux-6655" target="_blank"><img class="ordre-avocat" src="../assets/justifit.jpeg" alt=""></a>
-        <p class="paragraphe-footer">&copy; Site internet créé par <a class="lien-footer-nom" href="https://www.linkedin.com/in/benjaminstraub-web/">Benjamin Straub</a> - Tous droits réservés</p>
-        <a class="lien-footer" href="mentionslegales.php">Mention légales</a>
+        <a href="https://consultation.avocat.fr/avocat-nice/lucile-cannaux-40045.html" target="_blank"><img class="ordre-avocat" src="../assets/ordre-avocat.jpg" alt="Consultation.avocat-Lucile-Cannaux-Nice"></a>
+        <a href="https://www.justifit.fr/avocats/avocat-nice-06000-lucile-cannaux-6655" target="_blank"><img class="ordre-avocat" src="../assets/justifit.jpeg" alt="Justifit-Avocats-Lucile-Cannaux-Nice"></a>
+        <a href="https://www.hautecoeurducray-avocats.com/" target="_blank"><img class="ordre-avocat-hautecoeur" src="../assets/hautecoeur-logo.jpg" alt="Hautecoeur-Ducray-Avocats-Nice"></a>
+        <p class="paragraphe-footer">&copy; Site internet créé par <a class="lien-footer-nom" href="https://www.linkedin.com/in/benjaminstraub-web/" alt="linkedin-Benjamin-Straub">Benjamin Straub</a> - Tous droits réservés</p>
+        <a class="lien-footer" href="mentionslegales.php" alt="mentions-légales">Mention légales</a>
         <br>
-        <a class="lien-footer" href="#top-page">Revenir en haut de la page</a>
+        <a class="lien-footer" href="#top-page" alt="haut-de-page">Revenir en haut de la page</a>
     </footer>
 
 </div>

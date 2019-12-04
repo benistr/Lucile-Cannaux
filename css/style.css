@@ -25,7 +25,7 @@ header {
 }
 
 .header-title {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     padding-top: 1rem;
     text-align: center;
     font-family: 'Cormorant SC', serif;
@@ -33,7 +33,7 @@ header {
 }
 
 .subtitle-header {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding-bottom: 1.5rem;
     text-align: center;
     font-family: 'Cormorant SC', serif;
@@ -53,10 +53,11 @@ header {
 
 .animation-background {
     color: white;
-    background-image: url(../assets/IMG_2138-2.jpg);
+    background-image: url(../assets/page-marble.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 35%;
+    border: 2px solid white;
     height: 600px;
 }
 
@@ -64,20 +65,21 @@ header {
     font-size: 3rem;
     padding-top: 10rem;
     padding-bottom: 1rem;
-    padding-left: 1rem;
     margin-left: 3rem;
+    color: #326273;
 }
 
 .animation-type {
     font-size: 2rem;
-    padding-left: 1rem;
     padding-bottom: 18rem;
     margin-left: 3rem;
+    color: #326273;
 }
 
 .container p span.cursor {
     display: inline-block;
-    background-color: white;
+    background-color: #326273;
+    color: #326273;
     margin-left: 0.1rem;
     width: 3px;
     animation:1s blinker linear infinite;
@@ -135,7 +137,8 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30% 35%;
-    opacity: 0.5;
+    border: 2px solid white;
+    opacity: 0.8;
     margin: 0 auto;
     margin-top: 1rem;
     border-radius: 10px;
@@ -157,7 +160,8 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30% 35%;
-    opacity: 0.5;
+    border: 2px solid white;
+    opacity: 0.8;
     margin: 0 auto;
     margin-top: 1rem;
     border-radius: 10px;
@@ -170,31 +174,44 @@ header {
     color: white;
     text-align: center;
     background-color: #5c9ead;
+    height: 62vh;
 }
 
 .title-ma-formation {
+    width: 50%;
     padding-bottom: 1.5rem;
     font-size: 2rem;
     padding: 1rem 0;
 }
 
+.global-formation{
+    margin-top: 3rem;
+}
+
 .liste-ma-formation {
     text-align: left;
-    margin: 0 3rem;
+    margin: 1rem 3rem;
     font-size: 1.1rem;
     padding-bottom: 1rem;
 }
 
-.nice-rue {
-    width: 93%;
-    height: 250px;
-    background-image: url(../assets/nice-rue.jpg);
+.liste-ma-formation::first-letter {
+    font-size: 1.5rem;
+}
+
+.lucile-formation {
+    background-image: url(../assets/IMG_2138.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 35%;
-    opacity: 0.5;
-    margin: 0 auto;
-    margin-top: 1rem;
+    background-position: 100% 80%;
+    float: right;
+    width: 45%;
+    height: 56vh;
+    border: 2px solid white;
+    opacity: 0.8;
+    margin-top: 1.5rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
     border-radius: 10px;
 }
 
@@ -228,13 +245,14 @@ header {
     background-image: url(../assets/plage-nice.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    border: 2px solid white;
     width: 25%;
     height: 500px;
     float: left;
     margin: 0 3rem;
     margin-top: 3rem;
     border-radius: 10px;
-    opacity: 0.7;
+    opacity: 0.8;
     margin-bottom: 0.5rem;
 }
 
@@ -294,6 +312,7 @@ header {
     margin-right: 3rem;
     float: right;
     margin-top: 1rem;
+    border: 2px solid white;
 }
 
 .emailarea {
@@ -305,6 +324,7 @@ header {
     background-color: #93b7be;
     color: white;
     padding-left: 0.5rem;
+    border: 2px solid white;
 }
 
 .textarea {
@@ -317,6 +337,7 @@ header {
     background-color: #93b7be;
     color: white;
     padding-left: 0.5rem;
+    border: 2px solid white;
 }
 
 input[type="submit"]{
@@ -334,6 +355,7 @@ input[type="submit"]{
     float: right;
     width: 60%;
     height: 300px;
+    border: 2px solid white;
 }
 
 .footer {
@@ -369,6 +391,17 @@ input[type="submit"]{
     margin-right: 3rem;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.ordre-avocat-hautecoeur {
+    height: 50px;
+    float: right;
+    margin-right: 3rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 }
 
 .typed-text-mail {

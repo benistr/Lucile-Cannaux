@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^cannaux-avocat.fr$
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*) https://www.cannaux-avocat.fr/$1 [QSA,L,R=301]

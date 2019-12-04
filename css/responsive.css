@@ -33,7 +33,7 @@ header {
 }
 
 .header-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-top: 1rem;
     text-align: center;
     font-family: 'Cormorant SC', serif;
@@ -41,7 +41,7 @@ header {
 }
 
 .subtitle-header {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-bottom: 1rem;
     text-align: center;
     font-family: 'Cormorant SC', serif;
@@ -61,7 +61,7 @@ header {
 
 .animation-background {
     color: white;
-    background-image: url(../assets/IMG_2138-2.jpg);
+    background-image: url(../assets/page-marble.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 60%;
@@ -72,12 +72,10 @@ header {
     font-size: 2rem;
     padding-top: 15rem;
     padding-bottom: 1rem;
-    padding-left: 1rem;
 }
 
 .animation-type {
     font-size: 1rem;
-    padding-left: 1rem;
     padding-bottom: 18rem;
 }
 
@@ -86,6 +84,8 @@ header {
     background-color: white;
     margin-left: 0.1rem;
     width: 3px;
+    color: #326273;
+    background-color: #326273;
     animation:1s blinker linear infinite;
     -webkit-animation:1s blinker linear infinite;
     -moz-animation:1s blinker linear infinite;
@@ -141,7 +141,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30% 35%;
-    opacity: 0.5;
+    opacity: 0.8;
     margin: 0 auto;
     margin-top: 1rem;
     border-radius: 10px;
@@ -162,8 +162,8 @@ header {
     background-image: url(../assets/place-massena-nuit.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 30% 35%;
-    opacity: 0.5;
+    background-position: 40% 40%;
+    opacity: 0.8;
     margin: 0 auto;
     margin-top: 1rem;
     border-radius: 10px;
@@ -176,29 +176,41 @@ header {
     color: white;
     text-align: center;
     background-color: #5c9ead;
+    min-height: 900px;
 }
 
 .title-ma-formation {
+    margin: 0 auto;
     padding-bottom: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem 0;
+}
+
+.global-formation{
+    margin-top: 1rem;
 }
 
 .liste-ma-formation {
     text-align: left;
-    margin: 0 3rem;
+    margin: 1rem 3rem;
     font-size: 1.1rem;
     padding-bottom: 1rem;
 }
 
-.nice-rue {
-    width: 93%;
-    height: 250px;
-    background-image: url(../assets/nice-rue.jpg);
+.liste-ma-formation::first-letter {
+    font-size: 1.5rem;
+}
+
+.lucile-formation {
+    background-image: url(../assets/IMG_2138.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 35%;
-    opacity: 0.5;
+    background-position: 60% 80%;
+    width: 93%;
+    height: 56vh;
+    float: none;
+    border: 2px solid white;
+    opacity: 0.8;
     margin: 0 auto;
     margin-top: 1rem;
     border-radius: 10px;
@@ -241,7 +253,7 @@ header {
     margin: 0 auto;
     margin-top: 1rem;
     border-radius: 10px;
-    opacity: 0.7;
+    opacity: 0.8;
     margin-bottom: 0.5rem;
 }
 
@@ -353,11 +365,13 @@ input[type="submit"]{
     z-index: 20; */
     border-top: 2px solid white;
     height: 150px;
+    text-align: center;
 }
 
 .paragraphe-footer {
     margin-left: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    text-align: center;
 }
 
 .lien-footer{
@@ -373,15 +387,27 @@ input[type="submit"]{
 }
 
 .ordre-avocat {
-    height: 50px;
+    height: 30px;
     float: right;
     margin-right: 3rem;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
+.ordre-avocat-hautecoeur {
+    height: 30px;
+    float: right;
+    margin-right: 3rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
 .typed-text-mail {
     margin-left: 1rem;
+    color: #326273;
 }
 
 .animation-type-mail {

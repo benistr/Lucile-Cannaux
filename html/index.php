@@ -19,13 +19,13 @@
 <body>
     <div class="container" id="top-page">
         <header data-aos="fade-right" data-aos-duration="1500">
-            <h1 class="header-title">Lucile CANNAUX</h1>
+            <h1 class="header-title">Lucile Cannaux</h1>
             <h1 class="subtitle-header">Avocat au barreau de Nice</h1>
             <div>
                 <nav class="menu">
                     <ul>
                         <li class="menu__item"><a href="#quisuisje">Qui suis-je ?</a></li>
-                        <li class="menu__item"><a href="#mesdomaines">Domaines d'expertise</a></li>
+                        <li class="menu__item"><a href="#mesdomaines">Domaines de compétences</a></li>
                         <li class="menu__item"><a href="#maformation">Formation</a></li>
                         <li class="menu__item"><a href="#meshonoraires">Honoraires</a></li>
                         <li class="menu__item"><a href="#contactezmoi">Contactez-moi</a></li>
@@ -44,13 +44,13 @@
 
             <article class="qui-suis-je" id="quisuisje" data-aos="fade-right" data-aos-duration="1500">
                 <h1 class="title-qui-suis-je">Qui suis-je ?</h1>
-                <p class="paragraphe-qui-suis-je">Diplômée de l'Universite de Haute-Alsace et de l'Université de Nice Sophia Antipolis, j'ai prêté serment en janvier 2016. Je suis inscrite au Barreau de Nice et j'exerce mon activité dans l'ensemble du ressort de la Cour d'Appel d'Aix-En-Provence. J'apporte à mes clients la <em>compétence</em> et la réactivité indispensables à leur information et à la <strong>défense</strong> de leurs intérêts, tant en conseil que lors d'une <em>procédure judiciaire</em>. 
+                <p class="paragraphe-qui-suis-je">Diplômée de l'Université de Haute-Alsace et de l'Université de Nice Sophia Antipolis, j'ai prêté serment en janvier 2016. Je suis inscrite au Barreau de Nice et j'exerce mon activité dans l'ensemble du ressort de la Cour d'Appel d'Aix-En-Provence. J'apporte à mes clients la <em>compétence</em> et la réactivité indispensables à leur information et à la <strong>défense</strong> de leurs intérêts, tant en conseil que lors d'une <em>procédure judiciaire</em>. 
                 En prenant conseil ou en me confiant la défense de vos <strong>intérêts</strong>, vous bénéficiez d'une écoute active, de compétences certifiées, et d'une totale <em>confidentialité</em> dans le traitement de votre dossier.</p>
                 <div class="palais-justice"></div>
             </article>
 
             <section class="cards" data-aos="fade-left" data-aos-duration="1500">
-                <h1 class="domaines" id="mesdomaines">Domaines d'expertise</h1>
+                <h1 class="domaines" id="mesdomaines">Domaines de compétences</h1>
                 <nav class="top">
                     <div class="dropdownBackground">
                         <span class="arrow"></span>
@@ -143,7 +143,7 @@
                             <a href="#">Droit commercial, des affaires et de la concurrence</a>
                             <ul class="dropdown courses">
                                 <li>
-                                <span class="code">Intervention devant le Tribunal de Commerce et les juridictions compétences</span>
+                                <span class="code">Intervention devant le Tribunal de Commerce et les juridictions compétentes</span>
                                 </li>
                                 <li>
                                 <span class="code">Entreprises en difficulté et procédures de sauvegarde, de redressement et de liquidation</span>
@@ -181,7 +181,7 @@
                                 <span class="code">Voies de recours et appel</span>
                                 </li>
                                 <li>
-                                <span class="code">Conseil et assistance devant les juridictions civiles (TGI, TI, etc)</span>
+                                <span class="code">Conseil et assistance devant les juridictions civiles</span>
                                 </li>
                             </ul>
                         </li>
@@ -205,12 +205,14 @@
             </section>
 
             <article class="ma-formation" id="maformation" data-aos="fade-right" data-aos-duration="1500">
+            <div class="lucile-formation"></div>
                 <h1 class="title-ma-formation">Formation</h1>
+                <div class="global-formation">
                 <li class="liste-ma-formation">Master 1 Droit privé et sciences criminelles, à l'Université Nice Sophia Antipolis</li>
                 <li class="liste-ma-formation">Master 2 Droit privé fondamental et sciences criminelles, option droit privé à l'Université Nice Sophia Antipolis</li>
                 <li class="liste-ma-formation">CAPA (Certificat d'Aptitude à la Profession d'Avocat), à l'EDA Sud-Est de Marseille</li>
                 <li class="liste-ma-formation">Prestation de serment à la Cour d'appel d'Aix-en-Provence en 2016</li>
-                <div class="nice-rue"></div>
+                </div>
             </article>
 
             <article class="honoraires" id="meshonoraires" data-aos="fade-left" data-aos-duration="1500">
@@ -299,12 +301,13 @@
         </main>
 
         <footer class="footer">
-            <a href="https://consultation.avocat.fr/avocat-nice/lucile-cannaux-40045.html" target="_blank"><img class="ordre-avocat" src="../assets/ordre-avocat.jpg" alt=""></a>
-            <a href="https://www.justifit.fr/avocats/avocat-nice-06000-lucile-cannaux-6655" target="_blank"><img class="ordre-avocat" src="../assets/justifit.jpeg" alt=""></a>
-            <p class="paragraphe-footer">&copy; Site internet créé par <a class="lien-footer-nom" href="https://www.linkedin.com/in/benjaminstraub-web/">Benjamin Straub</a> - Tous droits réservés</p>
-            <a class="lien-footer" href="mentionslegales.php">Mention légales</a>
+            <a href="https://consultation.avocat.fr/avocat-nice/lucile-cannaux-40045.html" target="_blank"><img class="ordre-avocat" src="../assets/ordre-avocat.jpg" alt="Consultation.avocat-Lucile-Cannaux-Nice"></a>
+            <a href="https://www.justifit.fr/avocats/avocat-nice-06000-lucile-cannaux-6655" target="_blank"><img class="ordre-avocat" src="../assets/justifit.jpeg" alt="Justifit-Avocats-Lucile-Cannaux-Nice"></a>
+            <a href="https://www.hautecoeurducray-avocats.com/" target="_blank"><img class="ordre-avocat-hautecoeur" src="../assets/hautecoeur-logo.jpg" alt="Hautecoeur-Ducray-Avocats-Nice"></a>
+            <p class="paragraphe-footer">&copy; Site internet créé par <a class="lien-footer-nom" href="https://www.linkedin.com/in/benjaminstraub-web/" alt="linkedin-Benjamin-Straub">Benjamin Straub</a> - Tous droits réservés</p>
+            <a class="lien-footer" href="mentionslegales.php" alt="mentions-légales">Mention légales</a>
             <br>
-            <a class="lien-footer" href="#top-page">Revenir en haut de la page</a>
+            <a class="lien-footer" href="#top-page" alt="haut-de-page">Revenir en haut de la page</a>
         </footer>
     </div>
     
