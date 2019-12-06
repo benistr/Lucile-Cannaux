@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lucile Cannaux : Avocat au barreau de Nice</title>
+    <meta name="description" content="Lucile Cannaux : Avocat au barreau de Nice. Vous trouverez ici toutes les informations relatives à mon activité avant de me contacter">
 
     <link rel="icon" href="../assets/favicon-32x32.png" />
     <link rel="stylesheet" href="../css/reset.css">
@@ -57,7 +58,7 @@
                     </div>
                     <ul class="cool">
                         <li>
-                        <a href="#">Droit du crédit et de la consommation</a>
+                        <p>Droit du crédit et de la consommation</p>
                             <ul class="dropdown courses">
                                 <li>
                                 <span class="code">Contentieux en matière de carte bancaire</span>
@@ -83,7 +84,7 @@
                             </ul>
                         </li>
                         <li>
-                        <a href="#">Droit immobilier</a>
+                        <p>Droit immobilier</p>
                             <ul class="dropdown courses">
                                 <li>
                                 <span class="code">Droit de la copropriété, syndic, contentieux des AG, charges de copropriété</span>
@@ -100,7 +101,7 @@
                             </ul>
                         </li>
                         <li>
-                        <a href="#">Droit de la famille, des personnes et de leur patrimoine</a>
+                        <p>Droit de la famille, des personnes et de leur patrimoine</p>
                             <ul class="dropdown courses">
                                 <li>
                                 <span class="code">Conseil et assistance lors de procédures de divorce et séparation</span>
@@ -123,7 +124,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Droit des garanties, des sûretés et des mesures d'exécution</a>
+                            <p>Droit des garanties, des sûretés et des mesures d'exécution</p>
                             <ul class="dropdown courses">
                                 <li>
                                 <span class="code">Assistance au créancier pour la mise en place de mesures conservatoires</span>
@@ -140,7 +141,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Droit commercial, des affaires et de la concurrence</a>
+                            <p>Droit commercial, des affaires et de la concurrence</p>
                             <ul class="dropdown courses">
                                 <li>
                                 <span class="code">Intervention devant le Tribunal de Commerce et les juridictions compétentes</span>
@@ -163,7 +164,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Procédure civile</a>
+                            <p>Procédure civile</p>
                             <ul class="dropdown courses">
                                 <li>
                                 <span class="code">Assignations en justice</span>
@@ -186,7 +187,7 @@
                             </ul>
                         </li>
                         <li>
-                        <a href="#">Droit du dommage corporel</a>
+                        <p>Droit du dommage corporel</p>
                             <ul class="dropdown courses">
                                 <li>
                                 <span class="code">Conseil et prise en charge de la procédure d'indemnisation suite à un accident</span>

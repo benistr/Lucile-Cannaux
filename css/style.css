@@ -242,9 +242,10 @@ header {
 }
 
 .aside-honoraires {
-    background-image: url(../assets/plage-nice.jpg);
+    background-image: url(../assets/nice-clocher.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50% 0;
     border: 2px solid white;
     width: 25%;
     height: 500px;
