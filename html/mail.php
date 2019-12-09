@@ -41,13 +41,25 @@
                 </p>
             </section>
     <?php
-    $retour = mail('benjamin.str@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From:'. $_POST['email']);
+    if (isset($_POST['message'])) {
+        $position_arobase = strpos($_POST['email'], '@');
+        $entete  = 'MIME-Version: 1.0' . "\r\n";
+        $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+        $entete .= 'From: ' . $_POST['email'] . "\r\n";
+
+        $message = '<h1>Message envoyé depuis la page Contact de cannaux-avocat.fr</h1>
+        <p><b>Nom : </b>' . $_POST['nom'] . '<br>
+        <b>Email : </b>' . $_POST['email'] . '<br>
+        <b>Telephone : </b>' . $_POST['telephone'] . '<br><br>
+        <b>Message : </b>' . $_POST['message'] . '</p>';
+
+            $retour = mail('cannaux.avocat@gmail.com', 'Envoi depuis la page Contact', $message, $entete);
+        }
     ?>
 
         <footer class="footer">
             <a href="https://consultation.avocat.fr/avocat-nice/lucile-cannaux-40045.html" target="_blank"><img class="ordre-avocat" src="../assets/ordre-avocat.jpg" alt="Consultation.avocat-Lucile-Cannaux-Nice"></a>
             <a href="https://www.justifit.fr/avocats/avocat-nice-06000-lucile-cannaux-6655" target="_blank"><img class="ordre-avocat" src="../assets/justifit.jpeg" alt="Justifit-Avocats-Lucile-Cannaux-Nice"></a>
-            <a href="https://www.hautecoeurducray-avocats.com/" target="_blank"><img class="ordre-avocat-hautecoeur" src="../assets/hautecoeur-logo.jpg" alt="Hautecoeur-Ducray-Avocats-Nice"></a>
             <p class="paragraphe-footer">&copy; Site internet créé par <a class="lien-footer-nom" href="https://www.linkedin.com/in/benjaminstraub-web/" alt="linkedin-Benjamin-Straub">Benjamin Straub</a> - Tous droits réservés</p>
             <a class="lien-footer" href="mentionslegales.php" alt="mentions-légales">Mention légales</a>
             <br>

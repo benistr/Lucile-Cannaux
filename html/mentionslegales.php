@@ -104,7 +104,6 @@
     <footer class="footer">
         <a href="https://consultation.avocat.fr/avocat-nice/lucile-cannaux-40045.html" target="_blank"><img class="ordre-avocat" src="../assets/ordre-avocat.jpg" alt="Consultation.avocat-Lucile-Cannaux-Nice"></a>
         <a href="https://www.justifit.fr/avocats/avocat-nice-06000-lucile-cannaux-6655" target="_blank"><img class="ordre-avocat" src="../assets/justifit.jpeg" alt="Justifit-Avocats-Lucile-Cannaux-Nice"></a>
-        <a href="https://www.hautecoeurducray-avocats.com/" target="_blank"><img class="ordre-avocat-hautecoeur" src="../assets/hautecoeur-logo.jpg" alt="Hautecoeur-Ducray-Avocats-Nice"></a>
         <p class="paragraphe-footer">&copy; Site internet créé par <a class="lien-footer-nom" href="https://www.linkedin.com/in/benjaminstraub-web/" alt="linkedin-Benjamin-Straub">Benjamin Straub</a> - Tous droits réservés</p>
         <a class="lien-footer" href="mentionslegales.php" alt="mentions-légales">Mention légales</a>
         <br>

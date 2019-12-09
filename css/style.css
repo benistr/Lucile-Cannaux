@@ -407,8 +407,10 @@ input[type="submit"]{
 
 .typed-text-mail {
     margin-left: 3rem;
+    color: #326273;
 }
 
 .animation-type-mail {
     padding-top: 10rem;
+    color: #326273;
 }
